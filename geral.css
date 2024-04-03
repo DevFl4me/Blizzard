@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--corBranca);
+}
+:root{
+    --corBranca:white;
+    --corPreta:black;
+    --corNavBar:#282d43cc;
+    --corBackGroundNavBarButton:#060c11;
+    --corBackGroundAll:#15171e;
+    --corNavBar:#222639f2;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--corBackGroundAll);
+    align-items: center;
+    justify-content: center;
+
+}
+/* INICIO HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 70%;
+    height: 80px;
+    background-color: var(--corNavBar);
+}
+#logo-blizzard{
+    width: 80px;
+    
+}
+ul{
+gap: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#user-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a,li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#lado-esquerdo{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+}
+#lado-direito{
+    margin-right:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button-donwload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: var(--corBackGroundNavBarButton);
+    border: none;
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+}
+#button-donwload:hover{
+    background-color: #03002b;
+}
+a:hover{
+    color: #ffffff50;
+}
+#image-donwload{
+    width: 30px;
+    
+}
+.gameFonte,.mudaFonte{
+    font-size:18px;
+}
+#alinha-icone{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* FIM HEADER */
+
+/* INICIO MAIN */
+main{
+    margin-top: 40px;
+    width: 70%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.banner{
+   width: 1345px;
+   height: 500px;
+   background-image: url(/images/banner.svg);
+   background-repeat: no-repeat;
+   background-color: red;
+}
+ 
+/* FIM MAIN */
