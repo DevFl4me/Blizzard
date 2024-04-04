@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="geral.css">
     <link rel="stylesheet" href="/styles/index.css">
-    <title>Blizzard</title>
+    <title>Blizzard Entreteriment</title>
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
             <li><a href="#" class="gameFonte">StarCraft</a></li>
             <li><a href="#" class="mudaFonte">Sobre</a></li>
             <li><a href="#" class="mudaFonte">Loja</a></li>
-            <li id="alinha-icone"><img src="/images/conta.svg" alt=""><a id="conta" href="#" class="mudaFonte">Conta</a></li>
+            <li><img src="/images/conta.svg" alt=""><a id="conta" href="./pages/login.html" class="mudaFonte">Conta</a></li>
         </ul>
         <aside id="lado-direito">
             <div id="content-button">
@@ -32,37 +32,40 @@
     <main>
         <!-- Corpo Principal da página, irá conter 3 itens para venda no carrossel -->
         <section class="banner"></section>
-        <section id="games-box">
-            <div id="toop-side-tittle">
-                <aside id="jogosEmDestaque">
-                    <h1>JOGOS EM DESTAQUE</h1>
-                </aside>
-                <aside id="dispositivos">
-                    <p>PC</p>
-                    <p>CONSOLE</p>
-                    <p>DISPOSITIVOS</p>
-                </aside>
-            </div>
+            <section id="games-box">
+                <div id="toop-side-tittle">
+                    <aside id="jogosEmDestaque">
+                        <h1>JOGOS EM DESTAQUE</h1>
+                    </aside>
+                    <aside id="dispositivos">
+                        <p>PC</p>
+                        <p>CONSOLE</p>
+                        <p>DISPOSITIVOS</p>
+                    </aside>
+                </div>
         <section class="container-box">
-            <!-- 1° linha de cards -->
+            <!-- 1° row cards -->
                 <div class="box-card"id="card-01"></div>
                 <div class="box-card"id="card-02"></div>
                 <div class="box-card"id="card-03"></div>
         </section>
+        <!-- Description cards -->
         <section id="container-text-description">
-            <div class="text-description"><h3>Hearthstone   </h3><p>R$$400,00</p></div>
+            <div class="text-description"><h3>Hearthstone</h3><p>R$$400,00</p></div>
             <div class="text-description"><h3>world of warcraft</h3><p>R$360,00</p></div>
             <div class="text-description"><h3>Overwatch 2</h3><p>R$200,00</p></div> 
         </section>
+        <!-- 2° row cards -->
         <section class="container-box">
             <div class="box-card" id="card-04"></div>
             <div class="box-card" id="card-05"></div>
             <div class="box-card" id="card-06"></div>
         </section>
+        <!-- Description cards -->
         <section id="container-text-description">
             <div class="text-description"><h3>Diablo Imortal</h3><p>R$150,00</p></div>
             <div class="text-description"><h3>Warcraft III Reforged</h3><p>R$80,00</p></div>
-            <div class="text-description"><h3>world of warcraft</h3><p>R$129,99</p></div>  
+            <div class="text-description"><h3>Diablo II: Resurrected</h3><p>R$129,99</p></div>  
         </section>
     </section>
     </main>
@@ -78,13 +81,19 @@
                         <li>Imprensa</li>
                         <li>API</li>
                         <li>Mapa do Site</li>
-                        <li id="idioma">Português <span>(Brasil)</span></li>
                     </ul>
                 </nav>
+                <aside id="idioma">
+                    <a href="#" id="idioma">Português<span>(Brasil)</span></a>
+                </aside>
+            </div>
+            <div id="row-footer"></div>
+            <div id="mid-footer">
+                <aside id="right-side-footer">
+
+                </aside>
             </div>
         </section>
-    </footer> 
-    
+     </footer> 
 </body>
-
 </html>
