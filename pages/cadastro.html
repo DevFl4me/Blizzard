@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/geral.css">
+    <link rel="stylesheet" href="/styles/cadastro.css">
+    <link rel="stylesheet" href="/styles/login.css">
     <title>Register</title>
 </head>
 <body>
-    
+    <main>
+        
+        <section id="container-form">
+            <div id="banner-login">
+                <img id="logo-login" src="/images/bannerLogin.png" alt="Banner login">
+            </div>
+            <form action="#" id="preencher-login">
+                <h2>Cadastre-se</h2>
+                <label for="e-mail">Nome</label><input placeholder="Digite seu e-mail" type="text" name="userName">
+                <label for="e-mail">E-mail</label><input placeholder="Digite seu e-mail" type="email" name="userEmail">
+                <label for="password">Senha</label><input placeholder="Digite sua senha" type="password" name="password">
+                <label for="password">Confirmar Senha</label><input placeholder="Confirme sua senha" type="password" name="confirmPassword">
+                <button type="submit"><label id="activate-cursor">Conectar-se</label></button>
+                <a href="/index.html">Home</a>
+            </form>
+        </section>
+    </main>    
 </body>
 </html>
